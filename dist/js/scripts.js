@@ -146,7 +146,7 @@ function renderizarLivros(lista) {
   container.innerHTML = lista.map (item => { 
     const img = item.Capa && item.Capa.trim() !== "" 
       ? item.Capa 
-      : "assets/img/portfolio-1.jpg";
+      : "dist/assets/img/portfolio-1.jpg";
     return `
                         <div class="col-lg-3">
                         <a class="portfolio-item" href="${item.URL}" target="_blank">
